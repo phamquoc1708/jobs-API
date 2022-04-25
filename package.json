@@ -1,0 +1,38 @@
+{
+  "name": "api-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamquoc1708/jobs-API.git"
+  },
+  "keywords": [
+    "job",
+    "api"
+  ],
+  "author": "PhamQuoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamquoc1708/jobs-API/issues"
+  },
+  "homepage": "https://github.com/phamquoc1708/jobs-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
